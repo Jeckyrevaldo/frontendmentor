@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}   
+
+.main-main {
+    
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(30, 38%, 92%);
+}
+main img{
+    width: 22%;
+    border-radius: 10px 0px 0px 10px;
+}
+.right{
+    width: 22%;
+    background: white;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.top-title{
+    color: hsl(228, 12%, 48%);
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.title {
+    line-height: 2rem;
+    font-size: 39px;
+}
+.ehe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    column-gap: 1rem;
+    
+}
+.desc{
+    font-family: 'Outfit', sans-serif;
+    margin-top:2rem ;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height:20px;
+    font-size: 15px; 
+}
+.discount{
+    color: hsl(158, 36%, 37%);
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Fraunces',serif;
+}
+.price{
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%) ;
+    font-size: small ;
+}
+button
+{
+    border-radius: 8px;
+    background: hsl(158, 36%, 37%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 10px 13px 10px;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    column-gap: 1rem;
+    border: none;
+}
+button:hover
+{
+    border-radius: 8px;
+    background: hsl(159, 44%, 15%);
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 10px 13px 10px;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    column-gap: 1rem;
+    border: none;
+}
+button:focus
+{
+    border-radius: 8px;
+    background: hsl(159, 44%, 15%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 10px 13px 10px;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    column-gap: 1rem;
+    border: none;
+}
+button img{
+    width: 20px;
+}
