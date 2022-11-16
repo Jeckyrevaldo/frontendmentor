@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-self: start;
+}
+container{
+    width: 22%;
+    background: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:-10px 20px 20px rgba(0, 0, 0,0.5);
+    padding: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+h1{
+    font-family: Outfit,sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.desc{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 15px;
+    font-family: Outfit,sans-serif;
+}
+.price{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+.price p{
+    font-size: 15px;
+}
+.day{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+}
+.aaa{
+    display: flex;
+    width: 50%;
+    column-gap: 5px;
+    color: hsl(178, 100%, 50%);
+    align-items: center;
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+}
+.timer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+.timer img{
+    width: 15%;
+    height: 15%;
+}
+.icon{
+    width: 8%;
+    height: 8%;
+}
+.creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-top: solid 1px hsl(215, 32%, 27%);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    column-gap: 10px;
+    font-size: 14px;
+}
+.creator p {
+    color: hsl(215, 32%, 27%);
+    font-family: 'Outift',sans-serif;
+    font-weight: 400;    
+}
+.creator p span{
+ color: hsl(0, 0%, 100%);
+ font-weight: 600;
+}
+.creator img{
+    width: 10%;
+    border: solid 1px white;
+}
+.attribution {
+    display: flex;
+    color: #FFF;
+    font-size: 12px;
+}
+.attribution a{
+    margin-left: 2px;
+}
