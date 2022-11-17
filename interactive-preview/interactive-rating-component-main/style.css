@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:  hsl(216, 12%, 8%);
+}
+container{
+    width: 30%;
+    background: hsl(216, 21%, 14%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+}
+.top {
+    width:40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+    border-radius: 100%;
+    background-color:hsl(213, 19%, 18%) ;
+}
+.top img{
+    width: 80%;
+    padding: 10px;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Overpass',sans-serif  ;
+}
+p{
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    padding-bottom: 20px;
+    font-family: 'Overpass',sans-serif;
+}
+.aaa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    font-family: 'Overpass',sans-serif;
+    font-weight: 400;
+}
+.aaa button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:  hsl(213, 19%, 18%);
+    border: none;
+    color: hsl(216, 12%, 54%);
+}
+.aaa button:hover{
+    border-radius: 100%;
+    background-color:hsl(25, 97%, 53%) ;
+    border: none;
+    color: white;
+    transition: 900ms;
+}
+.aaa button:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.submit{
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-family: 'Overpass',sans-serif;
+    border: none;
+    font-weight: 700;
+}
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    transition: 700ms;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+}
+.card .selected{
+    font-family: 'Overpass',sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+}
+.card .thank{
+    font-family: 'Overpass',sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card .desc{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Overpass',sans-serif;
+}
